@@ -16669,11 +16669,9 @@ s.wN()
 return null},
 E7:function E7(a){this.a=a},
 Za:function Za(){},
-l6:function l6(a,b,c,d){var _=this
-_.d=a
-_.e=b
-_.f=c
-_.a=d},
+l6:function l6(a,b,c){this.e=a
+this.f=b
+this.a=c},
 GS:function GS(a,b,c){var _=this
 _.d=a
 _.e=b
@@ -53757,10 +53755,8 @@ N(a){var s=this,r=null,q=s.a.e,p=q==null,o=p?92:q,n=s.d
 if(p)q=B.cw
 else q=q<=48?B.fk:B.cw
 q=A.jl(A.hj("Emre Soys\xfcren",A.fP(A.eM(r,r,n,r,B.e,r,r,r,r,r,r,o,r,r,B.aX,r,r,!0,r,r,r,r,r,A.a([new A.eI(s.e,q,0)],t.j8),r,r)),B.bQ),B.c2,new A.a0X(s),new A.a0Y(s),r)
-o=s.a
-n=o.d
-o=o.f
-return A.kt(A.a([q,A.hj(n,A.fP(A.eM(r,r,B.S,r,B.e,r,r,r,r,r,r,o==null?32:o,r,r,B.m,r,r,!0,r,r,r,r,r,r,r,r)),B.bQ)],t.p),B.bq,B.dA,B.a7)}}
+o=s.a.f
+return A.kt(A.a([q,A.hj("Developer",A.fP(A.eM(r,r,B.S,r,B.e,r,r,r,r,r,r,o==null?32:o,r,r,B.m,r,r,!0,r,r,r,r,r,r,r,r)),B.bQ)],t.p),B.bq,B.dA,B.a7)}}
 A.a0X.prototype={
 $1(a){var s=this.a
 return s.ac(new A.a0W(s))},
@@ -53880,7 +53876,7 @@ $0(){return A.a6N(this.a.a.e)},
 $S:0}
 A.eS.prototype={
 N(a){var s=this,r=null,q=A.pz(32),p=s.f
-return A.e2(A.kt(A.a([A.hj(s.d,A.fP(A.eM(r,r,B.C,r,B.e,r,r,r,r,r,r,p==null?32:p,r,r,B.m,r,r,!0,r,r,r,r,r,r,r,r)),r),B.Fr,new A.Ea(12,20,s.c,r)],t.p),B.c7,B.b4,B.qB),r,new A.el(s.e,r,r,q,r,r,B.aR),B.yS,B.yP)}}
+return A.e2(A.kt(A.a([A.hj(s.d,A.fP(A.eM(r,r,B.C,r,B.e,r,r,r,r,r,r,p==null?32:p,r,r,B.m,r,r,!0,r,r,r,r,r,r,r,r)),r),B.Fr,new A.Ea(8,10,s.c,r)],t.p),B.c7,B.b4,B.qB),r,new A.el(s.e,r,r,q,r,r,B.aR),B.yS,B.yP)}}
 A.T0.prototype={
 Kr(a){$.a4y().a.set(this,a)}}
 A.is.prototype={
@@ -57607,9 +57603,9 @@ B.dG=new A.jo("flutter/navigation",B.eo)
 B.DI=new A.rF(0,null)
 B.DJ=new A.rG(null)
 B.dH=new A.rL(null)
-B.DK=new A.l6("Developer",56,28,null)
-B.DM=new A.l6("Computer Engineer",null,null,null)
-B.DL=new A.l6("Computer Engineer",64,32,null)
+B.DK=new A.l6(56,28,null)
+B.DL=new A.l6(64,32,null)
+B.DM=new A.l6(null,null,null)
 B.ag=new A.rP(0,"fill")
 B.H=new A.rP(1,"stroke")
 B.DN=new A.jq(1/0)
